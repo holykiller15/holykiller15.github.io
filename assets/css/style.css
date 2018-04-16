@@ -1,0 +1,203 @@
+body {
+  background: url("img-homepage/back-1.jpg");
+/*  background-position: center;*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+    padding-top:30px;
+}
+
+.header{
+  background-color: #e7e7e7;
+  opacity: 0.5;
+}
+
+img{
+  padding: 10px 0;
+}
+
+.container-fluid{
+  font-family: 'Righteous', cursive;
+}
+
+#text{
+  font-size: 50px;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+#text > a {
+     border:1px solid #e7e7e7;  
+     padding:5px;
+}
+
+
+#text > a:hover {
+    text-decoration: none;
+    color: grey;
+    border: 1px solid lightblue;
+    color: lightblue;
+
+}
+
+
+.title-word{
+  color:#e7e7e7;
+  font-size: 67px;
+  font-weight: 200;
+  
+}
+
+.footer {
+  margin-top: 100px;
+  height: 60px;
+  text-align: center;
+  left: 0;
+  color: white;
+}
+
+
+
+/*animations*/
+.animate {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.first {
+-webkit-animation-delay: 0.9s;
+-moz-animation-delay: 0.9s;
+animation-delay: 0.9s;
+}
+
+.second {
+-webkit-animation-delay: 1.5s;
+-moz-animation-delay: 1.5s;
+animation-delay: 1.5s;
+}
+
+.third {
+-webkit-animation-delay: 1.9s;
+-moz-animation-delay: 1.9s;
+animation-delay: 1.9s;
+}
+
+/**=== FADE IN  ===*/
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+.fadeIn {
+    -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+
+/*media queries*/
+
+/*mobile*/
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+
+.title-word{
+  color:#e7e7e7;
+  font-size: 40px;
+  font-weight: 200;
+  
+}
+
+#text{
+  font-size: 15px;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+#text > a {
+     background-color: #e7e7e7;  
+     padding:5px;
+}
+
+#text > a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.footer {
+  margin-top: 70px;
+  height: 60px;
+  text-align: center;
+  left: 0;
+  color: white;
+  font-size: 10px;
+}
+
+
+}
+/*ipad*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+.title-word{
+  color:#e7e7e7;
+  font-size: 50px;
+  font-weight: 200;
+}
+
+#text{
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+
+#text > a{
+  border: 1px solid white;
+  opacity: .8;
+}
+
+#text > a {
+     background-color: #e7e7e7;  
+     padding:5px;
+}
+
+#text > a:hover {
+    text-decoration: none;
+    color: white;
+
+}
+
+.footer {
+  margin-top: 150px;
+  height: 60px;
+  text-align: center;
+  left: 0;
+  right: 0;
+  color: white;
+  font-size: 20px;
+}
+
+
+}
+
+/*laptop and desktops*/
+@media only screen and (min-width: 992px){
+
+}
+@media only screen and (min-width: 1200px) {
+
+}

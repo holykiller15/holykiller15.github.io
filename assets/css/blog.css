@@ -1,0 +1,63 @@
+body {
+	font-family: 'Righteous', cursive;
+	background: url("img-homepage/bg.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	padding-top: 70px;
+	color:  white; 
+}
+
+.container,
+.container-fluid {
+	font-family: 'Righteous', cursive;
+	
+}
+
+li	{
+	font-family: 'Righteous', cursive;
+	font-size: 1.5em;
+}
+
+#feat-1 > img {
+	height: 50px;
+	width: 50px;
+	display: inline;
+}
+
+#feat-1 > a{
+	text-decoration: none;
+}
+
+#feat-1{
+	padding-bottom: 5px;
+}
+
+#panel-design > .panel-heading{
+	background-color: #02458d;
+	color: #e7e7e7;
+}
+
+#panel-design > .panel-body {
+	background-color: #e7e7e7;
+	color: #02458d;
+}
+
+
+/*carousel*/
+.carousel-inner > .item > img {
+	
+	width: 100%
+}
+
+#summerpic{
+	width: 100%;
+}
+
+#caption-id{
+	padding: 5px;
+}

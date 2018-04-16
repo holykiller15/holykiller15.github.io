@@ -1,0 +1,25 @@
+body {
+	font-family: 'Righteous', cursive;
+	background: url("img-homepage/bg.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	padding-top: 70px;
+	color:  white; 
+}
+
+li	{
+	font-family: 'Righteous', cursive;
+	font-size: 1.5em;
+}
+
+.container {
+	font-family: 'Righteous', cursive;
+	/*border: 1px solid green;/*for testing*/
+}
+
+.

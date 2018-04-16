@@ -1,0 +1,83 @@
+body {
+	font-family: 'Righteous', cursive;
+	background: url("img-homepage/bg.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	padding-top: 70px;
+	color:  white; 
+}
+
+
+/*navbar effects*/
+
+li	{
+	font-family: 'Righteous', cursive;
+	font-size: 1.5em;
+}
+
+.row{
+	font-family: 'Righteous', cursive;
+	margin: 0;
+	padding:0;
+	background-color: 
+}
+
+.container {
+	font-family: 'Righteous', cursive;
+}
+
+.content > h2{
+	text-transform: uppercase;
+}
+
+.gospel-part{
+	background:url(img-homepage/gospel-bg.jpg);	
+	padding-top: 20px;
+
+}
+
+.gospel-part > img{
+	margin: 0 auto;
+}
+
+.gospel-series > p {
+	text-decoration: none;
+	text-align: center;
+	font-size: 20px;
+}
+
+.carousel-inner > .item > img {
+	width: 100%
+}
+
+#Activities{
+
+	width: 100%;
+}
+
+.footer{
+	font-family: 'Righteous', cursive;
+	color: black;
+}
+
+.btn {
+	font-family: 'Righteous', cursive;
+}
+
+span {
+	font-family: 'Righteous', cursive;
+}
+
+#label-blog > h2{
+	margin-bottom: 20px;
+}
+
+#news-a > a {
+	text-decoration: none;
+	font-size: 25px;
+}
