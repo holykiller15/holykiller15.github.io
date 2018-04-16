@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta http-equiv="X-UA-Compatible" content="IE-Edge">
+	<title>Home Page</title>
+
+	<!-- importing CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/homepage.css">
+
+	<!-- importing bootstrap CSS  -->
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+
+	<!-- fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+
+</head>
+<body>
+
+	<!-- Navbar -->
+	<nav class="navbar navbar-default navbar-fixed-top">
+
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu-bar" aria-expanded="false">
+					<span class="sr-only">Toggle Navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a href="index.html" class="navbar-brand"><img src="assets/css/img-homepage/victory-logo.png"></a>
+			</div>
+
+			<div class="collapse navbar-collapse" id="menu-bar">
+				<ul class="nav navbar-nav">
+					<li class=""><a href="homepage.html"><strong>Talavera </strong></a></li>
+					<li><a href="contentpage.html">New & Blogs</a></li>
+					<li class="dropdown">
+						<a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Who We Are <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="aboutpage.html">Our Goals</a></li>
+							<li><a href="connectpage-1.html">Worship</a></li>
+							<li><a href="" data-toggle="modal" data-target="#ContactModal">Talk to us</a></li>
+							<li><a href="https://victory.org.ph/give/">Giving</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>	
+	</nav>
+
+	<!-- Modal -->
+	<div class="modal fade" id="ContactModal" role="dialog">
+		<div class="modal-dialog">
+
+			<!-- Modal content-->
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+					<img src="assets/css/img-homepage/victory-logo.png" class="center-block"><br>
+					<h4 class="text-center">Talk to Us</h4>
+
+				</div>
+				<div class="modal-body">
+					<form role="form">
+						<div class="form-group">
+							<label>Name *</label>
+							<input type="text" class="form-control" id="name" placeholder="Your name">
+						</div>
+
+						<div class="form-group">
+							<label>Email *</label>
+							<input type="text" class="form-control" id="email" placeholder="Your email">
+						</div>
+
+						<div class="form-group">
+							<label>Mobile Number *</label>
+							<input type="text" class="form-control" id="mobile" placeholder="Your Mobile number">
+						</div>
+
+						<div class="form-group">
+							<label>Subject *</label> <br>
+							<select>
+								<option value="1" selected>I am New</option>
+								<option value="2">I'm looking for a Victory Group</option>
+								<option value="3">I'm updating my church's information</option>
+								<option value="4">I want to share my Victory Story</option>
+							</select>
+						</div>
+
+						<div class="form-group">
+							<label>Message *</label><br>
+							<textarea placeholder="Your Message">
+							</textarea>
+						</div>		            
+						<button type="submit" class="btn btn-default btn-success center-block">Submit</button>
+					</form>
+				</div>
+
+				<div class="modal-footer">
+					<button type="submit" class="btn btn-default btn-default pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
+					<p><a href="#">Sign Up</a> for a news letter.</p>
+				</div>
+			</div>
+		</div>
+	</div> 	<!-- end Navbar -->
+
+			
+
+<!-- <!- Gospel heading -->
+
+<div class="content">
+<div class="container-fluid">
+
+<div class="container">
+
+		<div class="foo foo-2"><h3>Verse of the day:</h3>
+
+			<blockquote>
+			<p>"If the Spirit of him who raised Jesus from the dead dwells in you., he who raised Christ Jesus from the dead will also give life to your mortal bodies through his Spirit who dwells in you."</p>
+			<footer><a href="https://www.biblegateway.com/passage/?search=romans+8%3A11&version=NIV">Romans 8:11</a></footer>
+			</blockquote>
+		</div>
+<hr>
+<div class="row gospel-part foo foo-2">
+
+	<div class="col-md-4 gospel-series">
+	<img class="img-responsive" src="assets/css/img-homepage/gospel-logo.png"><br>
+	<p><a href="http://victory.org.ph/new-series-gospel-demonstrated/">About the series</a></p>
+	</div>
+
+	<div class="col-md-8">
+
+		<div class="row part">
+
+			<div class="col-md-5">
+			<h3>GOSPEL DEMONSTRATED</h3>	
+			</div>
+
+			<div class="col-md-5">
+			<h5>VICTORY GROUP MATERIAL</h5>	
+			</div>
+
+			<div class="col-md-2">
+			<h5>PODCAST</h5>
+			</div>
+
+		</div>
+	</div>
+
+	<div class="col-md-8">
+
+		<div class="row part">
+
+			<div class="col-md-5">
+			<a class="btn" href="#">WEEK 1: The Testing of Faith</a>  
+			</div>
+
+			<div class="col-md-5">
+			<a href="" class="btn">
+			<span class="glyphicon glyphicon-download-alt" aria-hidden="true"> Filipino</span>
+			</a>
+			<a href="" class="btn">
+			<span class="glyphicon glyphicon-download-alt" aria-hidden="true"> English</span>
+			</a>
+			</div>
+
+			<div class="col-md-2">
+			<a href="" class="btn">
+			<span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
+			</a>
+			</div>
+
+		</div>
+	</div>
+
+	<div class="col-md-8">
+
+		<div class="row part">
+
+			<div class="col-md-5">
+			<a class="btn" href="#">WEEK 2: True Religion</a>
+			</div>
+
+			<div class="col-md-5">
+			<a href="" class="btn">
+			<span class="glyphicon glyphicon-download-alt" aria-hidden="true"> English</span>
+			</a>
+			</div>
+
+			<div class="col-md-2">
+			<a href="" class="btn">
+			<span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
+			</a>
+			</div>
+
+		</div>
+	</div>
+
+	<div class="col-md-8">
+
+		<div class="row part">
+
+			<div class="col-md-5">
+			<a class="btn" href="">WEEK 3: True Religion</a>
+			</div>
+
+			<div class="col-md-5">
+			<a href="" class="btn">
+			<span class="glyphicon glyphicon-download-alt" aria-hidden="true"> English</span>
+			</a>
+			</div>
+
+			<div class="col-md-2">
+			<a href="" class="btn">
+			<span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
+			</a>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+
+<div class="foo foo-3">
+	<h2><strong>Featuring this week:</strong></h2>
+</div>
+
+<hr>
+
+<div class="foo foo-2">
+
+	<div id="label-blog">
+	<h2 id="label-blog"><span class="label label-default">BLOGS</span></h2>
+	</div>
+
+	<div id="news-a">	
+	<a href="blog-1.html">Connecting with God: Discovering your Devotional Pathways</a>
+	</div>
+
+	<div>		
+	<img class="img-responsive" src="assets/css/img-homepage/blog-2.jpg">
+	<p ></p>
+
+	<p>The Bible says, “God confides on those who fear Him” -Psalm 25:14<a href="blog-1.html"> Continue Reading >>></a></p>
+	</div>
+</div>
+
+<hr>
+
+<div class="foo foo-5">
+
+	<div id="label-blog">
+	<h2 id="label-blog"><span class="label label-default">NEWS</span></h2>
+	</div>
+
+	<div id="news-a">	
+	<a href="blog-2.html">Summer Activities </a>
+	<p>Usher Ministry getaways 2016</p>
+	</div>
+
+	<div id="Activities" class="carousel slide" data-ride="carousel">
+		<!-- Indicators -->
+		<ol class="carousel-indicators">
+			<li data-target="#Activities" data-slide-to="0" class="active"></li>
+			<li data-target="#Activities" data-slide-to="1"></li>
+			<li data-target="#Activities" data-slide-to="2"></li>
+			<li data-target="#Activities" data-slide-to="3"></li>
+		</ol>
+
+			<!-- Wrapper for slides -->
+		<div class="carousel-inner">
+
+			<div class="item active">
+				<img src="assets/css/img-homepage/carousel-pic.jpg" alt="carousel-pic">
+				<div class="carousel-caption">
+				<h5>Planting Seed</h5>
+				<p>Planting and Watering. So much fun!</p>
+				</div>
+			</div>
+
+			<div class="item">
+				<img src="assets/css/img-homepage/carousel-pic-1.jpg" alt="carousel-pic-1">
+				<div class="carousel-caption">
+				<h5>Playing on Seashore</h5>
+				<p>Sea reminds us of His creations</p>
+				</div>
+			</div>
+
+			<div class="item">
+				<img src="assets/css/img-homepage/carousel-pic-2.jpg" alt="carousel-pic-2">
+				<div class="carousel-caption">
+				<h5>Seashores</h5>
+				<p>We are so inlove with the sea</p>
+				</div>
+			</div>
+		</div>
+
+			<!-- Left and right controls -->
+		<a class="left carousel-control" href="#Activities" data-slide="prev">
+		<span class="glyphicon glyphicon-chevron-left"></span>
+		<span class="sr-only">Previous</span>
+		</a>
+		<a class="right carousel-control" href="#Activities" data-slide="next">
+		<span class="glyphicon glyphicon-chevron-right"></span>
+		<span class="sr-only">Next</span>
+		</a>
+	</div>
+</div>
+
+
+</div>	<!-- end of container -->
+</div>	<!-- end of container fluid -->	
+</div><!-- end of content -->
+
+		
+		 <hr> 
+		<div class="footer">
+			<div class="container text-center">
+				<p>© Copyright 2018</p>
+				<p>Disclaimer: No copyright infringement is intended. This is only for educational purposes and not for profit. Some assess used are not owned by the developer/s unless otherwise stated; the credit goes to the owner.</p>
+			</div>
+		</div>
+
+	<!-- bootstrap requires jQuery -->
+	<!-- <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script> -->
+
+		<!-- bootstrap jQuery -->
+	<script src="assets/js/jquery-3.3.1.js"></script>
+
+	<!-- include all compiled plugins needed for bootstrap -->
+	<script src="assets/js/bootstrap.min.js"></script>
+
+	<!-- scroll reveal -->
+	<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+	<script src="assets/js/index.js"></script>
+</body>
+</html>
